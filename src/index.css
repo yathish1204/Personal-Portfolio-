@@ -17,6 +17,10 @@
     --mode-color:#ececec;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .dark-theme{
     --background-color:#2C2C2C;
     --sec-background-color:#1a1a1a;

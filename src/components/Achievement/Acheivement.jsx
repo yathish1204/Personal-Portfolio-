@@ -25,7 +25,7 @@ const Acheivement = () => {
   return (
     <section id="ach" className={theme==='dark'?'dark-theme':'light-theme'}>
       <span className="skillTitle">My Achievements</span>
-      <span className="skillDesc">
+      <span className="skillDesc" data-aos='fade'>
         Empowered by a collection of certifications, achievements, and enriching
         internships, my portfolio reflects a commitment to growth and impactful
         contributions.

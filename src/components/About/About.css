@@ -38,6 +38,10 @@
     margin-top: 1rem;
 }
 
+.skillDesc span{
+    color: var(--accent-color);
+}
+
 .skillCards{
     margin: 3rem auto;
     width: 100vw;
@@ -67,6 +71,14 @@
     object-fit: cover;
     border-radius: 0.5rem;
     transition:  0.3s linear;
+}
+.skillCard video{
+    height: 10rem;
+    align-self:stretch;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition:  0.3s linear;
+    pointer-events: none;
 }
 
 .skillCard:hover img{
@@ -111,6 +123,7 @@
         height: 162px;
         object-fit: cover;
     }
+
 }
 
 /* Tablet (Medium screens, 768px to 1023px) */
@@ -125,18 +138,19 @@
     .skillDesc {
         font-size: 1rem;
         padding: 0 2rem;
+        text-align: center;
     }
     .skillCards {
         flex-direction: row;
         flex-wrap: wrap;
         row-gap: 2rem;
-        column-gap: 2rem;
         margin: 3rem auto;
     }
     .skillCard{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .skillCard .skillImg{
         width: auto;
@@ -149,17 +163,20 @@
 /* Mobile (Small screens, 767px and down) */
 @media screen and (max-width: 767px) {
     #skills {
-        margin: 1rem;
         margin-top: 100px;
         padding: 0 1rem;
-        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     .skillTitle {
         font-size: 2rem;
     }
     #skills .skillDesc {
         font-size: 0.9rem;
-        padding: 0 2rem;
+        padding: 0 1rem;
+        text-align: left;
     }
     .skillCards {
         flex-direction: column;
@@ -181,6 +198,15 @@
     .skillCard img {
         height: auto;
         width: 100%;
+    }
+    .skillCard video{
+        height: auto;
+        width: 100%;
+        align-self:stretch;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        transition:  0.3s linear;
+        pointer-events: none;
     }
     .skillbarText h2 {
         font-size: 1.2rem;

@@ -33,8 +33,8 @@ const Footer = () => {
   return (
     <section id="footer" className={theme==='dark'?'dark-theme':'light-theme'}>
          
-        {/* {theme==='light'?<Tippy content='Toggle Dark mode'><img loading='lazy' style={{width:'40px',height:'40px',objectFit:'contain'}}  onClick={toggleTheme} src={moon} alt="mode" className='icon' data-aos='fade'  /></Tippy>
-        :<Tippy content='Toggle light mode'><img loading='lazy'style={{width:'40px', height:'40px', objectFit:'cover'}} onClick={toggleTheme} src={sun} alt="mode" className='icon' data-aos='fade'  /></Tippy>} */}
+        {/* {theme==='light'?<Tippy content='Toggle Dark mode'><img  loading='lazy' style={{width:'40px',height:'40px',objectFit:'contain'}}  onClick={toggleTheme} src={moon} alt="mode" className='icon' data-aos='fade'  /></Tippy>
+        :<Tippy content='Toggle light mode'><img  loading='lazy'style={{width:'40px', height:'40px', objectFit:'cover'}} onClick={toggleTheme} src={sun} alt="mode" className='icon' data-aos='fade'  /></Tippy>} */}
         
         
         <div className="navigationLinks" data-aos='fade-right'>
@@ -58,7 +58,7 @@ const Footer = () => {
                   target="_blank"
                 >
                  <Tippy content='linkedIn'>
-                        <img loading='lazy'src={linkedIn} alt="" />
+                        <img  loading='lazy'src={linkedIn} alt="" />
                     </Tippy>
                 </Link>
               </Router>     
@@ -70,7 +70,7 @@ const Footer = () => {
                   target="_blank"
                 >
                  <Tippy content='gitHub'>
-                        <img loading='lazy'src={gitHub} alt="" />
+                        <img  loading='lazy'src={gitHub} alt="" />
                     </Tippy>
                 </Link>
               </Router>     
@@ -82,7 +82,7 @@ const Footer = () => {
                   target="_blank"
                 >
                  <Tippy content='behance'>
-                        <img loading='lazy'src={behance} alt="" />
+                        <img  loading='lazy'src={behance} alt="" />
                     </Tippy>
                 </Link>
               </Router>     
@@ -94,7 +94,7 @@ const Footer = () => {
                   target="_blank"
                 >
                  <Tippy content='twitter'>
-                        <img loading='lazy'src={twitter} alt="" />
+                        <img  loading='lazy' src={twitter} alt="" />
                     </Tippy>
                 </Link>
               </Router>     
@@ -106,7 +106,7 @@ const Footer = () => {
                   target="_blank"
                 >
                  <Tippy content='instagram'>
-                        <img loading='lazy'src={insta} alt="" />
+                        <img  loading='lazy' src={insta} alt="" />
                     </Tippy>
                 </Link>
               </Router>     

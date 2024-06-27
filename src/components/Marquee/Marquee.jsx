@@ -14,8 +14,11 @@ const Marquee = () => {
         else if( currentHours<16){
             return 'Hey! Good Afternoon, '
         }
-        else{
+        else if(currentHours<20){
             return 'Hey! Good Evening, '
+        }
+        else{
+            return 'Hey! Good Night, '
         }
     }
 

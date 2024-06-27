@@ -3,8 +3,10 @@
 
 #portfolio{
     overflow: hidden;
-    max-width: 75vw;
+    /* max-width: 75vw;
+    width: 100%; */
     width: 100%;
+    max-width: 82vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +34,7 @@
 }
 
 .portImg .portImgs{
-    object-fit: cover;
+    object-fit: contain;
     height: 15rem;
     width: 20rem;
     background-color: var(--sec-background-color);
@@ -73,11 +75,12 @@
 
 
 
-.blurBg .blur{
+.blurBg .blur1{
     color:#4d4d4d;
     object-fit: contain;
     width: 24px;
     height: 24px;
+    z-index: 3;
 }
 
 .blurBg a{
@@ -91,7 +94,7 @@
 
 @media screen and (min-width: 1024px) {
     #portfolio {
-        max-width: 75rem;
+        max-width: 65rem;
         margin-top: 200px;
     }
     .portImages {
@@ -109,6 +112,7 @@
     .blurBg img {
         width: 28px;
         height: 28px;
+        z-index: 3;
     }
     .skillTitle {
             font-size: 2.5rem;
@@ -146,6 +150,7 @@
     .blurBg img {
         width: 24px;
         height: 24px;
+        z-index: 3;
     }
 }
 
@@ -154,14 +159,16 @@
     #portfolio {
         margin: 1rem auto;
         margin-top: 100px;
-        text-align: center; 
+        text-align: center;
+         
     }
     .skillTitle {
         font-size: 2rem;
     }
     #portfolio .skillDesc {
         font-size: 0.9rem;
-        padding: 0;
+        /* padding: 0 1rem; */
+        text-align: left;
     }
     .portImages {
         flex-direction: column;
@@ -184,6 +191,7 @@
     .blurBg img {
         width: 24px;
         height: 24px;
+        z-index: 3;
     }
     #portfolio .navBtn{
         width: 100%;

@@ -12,7 +12,6 @@ import port8 from "../../assets/zeta.jpg";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";import './Scroller.css'
-// import './scroller'
 import { useTheme } from "../ThemeContext";
 
 export const Scroller = () => {
@@ -44,7 +43,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port1} className="achImgs" alt="achfolio 1" />
+                    <img src={port1} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -57,7 +56,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port2} className="achImgs" alt="achfolio 1" />
+                    <img src={port2} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -70,7 +69,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port3} className="achImgs" alt="achfolio 1" />
+                    <img src={port3} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -83,7 +82,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port4} className="achImgs" alt="achfolio 1" />
+                    <img src={port4} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -96,7 +95,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port5} className="achImgs" alt="achfolio 1" />
+                    <img src={port5} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -109,7 +108,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port6} className="achImgs" alt="achfolio 1" />
+                    <img src={port6} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -122,7 +121,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port7} className="achImgs" alt="achfolio 1" />
+                    <img src={port7} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -135,7 +134,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port8} className="achImgs" alt="achfolio 1" />
+                    <img src={port8} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -148,7 +147,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port1} className="achImgs" alt="achfolio 1" />
+                    <img src={port1} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -161,7 +160,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port2} className="achImgs" alt="achfolio 1" />
+                    <img src={port2} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -174,7 +173,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port3} className="achImgs" alt="achfolio 1" />
+                    <img src={port3} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -187,7 +186,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port4} className="achImgs" alt="achfolio 1" />
+                    <img src={port4} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -200,7 +199,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port5} className="achImgs" alt="achfolio 1" />
+                    <img src={port5} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -213,7 +212,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port6} className="achImgs" alt="achfolio 1" />
+                    <img src={port6} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -226,7 +225,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port7} className="achImgs" alt="achfolio 1" />
+                    <img src={port7} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>
@@ -239,7 +238,7 @@ export const Scroller = () => {
                   target="_blank"
                 >
                  <Tippy content="view">
-                    <img loading='lazy'src={port8} className="achImgs" alt="achfolio 1" />
+                    <img src={port8} className="achImgs" alt="achfolio 1" />
                  </Tippy>
             </Link>
         </Router>

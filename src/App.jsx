@@ -11,9 +11,10 @@ import { useEffect, useState } from 'react'
 import Marquee from './components/Marquee/Marquee'
 import Again from './components/AgainAch/Again'
 import Scroller from './components/Scroller/Scroller'
-import './App.css'
 import { ThemeProvider, useTheme } from './components/ThemeContext'
 import Bot from './components/Bot/Bot'
+import SliderA from './components/Slider/Slider'
+import Laptop from './components/Laptop/Laptop'
 
 export const App=()=>{
   
@@ -42,19 +43,25 @@ useEffect(() => {
   document.body.classList.add(theme==='dark'?'dark-theme':'light-theme');
 }, [theme])
 
+
+
   return (
-      <div className='app' >
-      <Navbar/>
-      <Bot/>
-      <Marquee/>
-      <Intro/>h
-      <About/>
-      <Portfolio/>
-      {/* <Acheivement/> */}
-      {/* <Again/> */}
-      <Scroller/>
-      <Contact/>
-      <Footer/>
+        <div className='app'
+        // style={{display:isLoading? 'none':'block'}}
+        >
+          <Navbar/>
+          <Bot/>
+          <Marquee/>
+          <Intro/>
+          <About/>
+          <Laptop/>
+          {/* <Portfolio/> */}
+          <SliderA/>
+          {/* <Acheivement/> */}
+          {/* <Again/> */}
+          {/* <Scroller/> */}
+          <Contact/>
+          <Footer/>
     </div>
   )
 }

@@ -1,15 +1,15 @@
 @import '../../index.css';
 
 #intro{
-    height: calc(100vh-125px);
+    /* height: calc(100vh-125px); */
     width: 100%;
     max-width: 82vw;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
     display: flex;
-    margin-top: 5rem;
-
+    /* margin-top: 2rem; */
+    justify-content: center;
 }
 
 
@@ -57,7 +57,7 @@ button .introLink{
 }
 
 .introContent{
-    height: 80vh;
+    height: 60vh;
     width: 100vh;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ button .introLink{
 /* media Query */
 @media screen and (min-width: 1200px) {
     #intro{
-        margin-top: 5rem;
+        /* margin-top: 2rem; */
     }
 }
 
@@ -112,14 +112,15 @@ button .introLink{
         display: flex;
         flex-direction: row;
         margin: 0 auto;
-        margin-top: 4rem;
     }
     .introContent {
-        height: 80vh;
+        height: 60vh;
         width: 50vw;
     }
     .bg {
-        height: 80vh;
+        height: 60vh;
+        width: 30vw;
+        object-fit: contain;
     }
     .introName{
         text-wrap: nowrap;
@@ -131,7 +132,7 @@ button .introLink{
         flex-direction: column;
         row-gap: 2rem;
         margin: 0rem auto;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 }
 
@@ -139,14 +140,16 @@ button .introLink{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #intro{
         margin: 0rem auto;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     .introContent {
-        height: 72vh;
+        height: 58vh;
         width: 100%;
     }
     .bg {
-        height: 60vh;
+        height: 55vh;
+        width: 25vw;
+        object-fit: contain;
     }
     .introName {
         font-size: 3rem;
@@ -174,17 +177,17 @@ button .introLink{
         flex-direction: column;
         row-gap: 1rem;
         margin: 0rem auto;
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
         align-items: center;
     }
     .introContent {
         height: auto;
         width: 100%;
-        margin: 2rem 3rem;
+        margin: 0rem 3rem;
         left: 2rem;
     }
     .bg {
-        height: 60vh;
+        height: 50vh;
         left: 1rem;
         margin-left:0 auto;
         position: static;
@@ -217,6 +220,9 @@ button .introLink{
 @media   (max-width:340px){
     #intro{
         margin-top: 2rem;
+    }
+    .bg{
+        height: 40vh;
     }
     .introBtn{
         width: 200px;

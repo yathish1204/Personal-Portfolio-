@@ -58,16 +58,16 @@ const Contact = () => {
           <ul>
             <li>
               <a href="mailto:yathish120420@gmail.com">
-                <img loading='lazy'src={email} alt="email" />
+                <img src={email} alt="email" />
                 yathish120420@gmail.com
               </a>
             </li>
             <li>
-              <img loading='lazy'src={phone} alt="phone number" />
+              <img src={phone} alt="phone number" />
               +91 8296302220
             </li>
             <li>
-              <img loading='lazy'src={gps} alt="location" />
+              <img src={gps} alt="location"  />
               Jayanagar East End, Bengaluru
             </li>
             <iframe
@@ -76,7 +76,7 @@ const Contact = () => {
               style={{ border: 0,width:"500",
                 height:"300" }}
               allowFullScreen=""
-              loading="lazy"
+              // loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </ul>

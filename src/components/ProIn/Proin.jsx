@@ -23,7 +23,7 @@ const Proin = () => {
 
   return (
     <span className='introProHead'>
-      Proficient In: <span className="introPro" ref={el}>Proficient in:</span>
+      Proficient In: <span className="introPro" ref={el}></span>
     </span>
   )
 }
